@@ -21,7 +21,7 @@ public class Calculadora{
 	System.out.println("  --> Calculadora <--  ");
 	System.out.println("1. Sumar");
 	System.out.println("2. Restar");
-	
+	System.out.println("3.Multiplicar");
 	
 	System.out.println("5. Salir");
 
@@ -34,6 +34,9 @@ public class Calculadora{
 			break;
 		case 2: //Restar
 			resultado=operador1-operador2;
+			break;
+		case 3: //Multiplicar
+			resultado=operador1*operador2;
 			break;
 		
 			break;
